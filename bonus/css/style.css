@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    border: dotted 1px black;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gray{
+    background-color: gray;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+    width: 3px;
+    color: white;
+    text-align: center;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.darkgray{
+    background-color: rgb(78, 74, 74);
+}
+.body{
+    position: relative;
+}
+.schermo{
+    background-color: rgb(37, 158, 228);
+    position: absolute;
+    height: 290px;
+    width: 550px;
+    top: 115px;
+    left: 356px;
+}
+.tastiera{
+    width: 550px;
+    background-color: rgb(80, 73, 73);
+    position: absolute;
+    height: 163px;
+    top: 441px;
+    left: 356px;
+    padding:20px;
+}
+.margin{
+    margin-top: 10px;
+}
+.margin2{
+    margin-top: 70px;
+   
+}
+.border{
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.borderinverse{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+.borderlr{
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+

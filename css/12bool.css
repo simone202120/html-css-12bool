@@ -1,8 +1,11 @@
 [class*='col-']{
     flex: 0 0 auto;
-    height: 30px;
+    height: 50px;
     background-color: blue;
     border: solid 1px white;
+    display: flex;
+    padding:6px;
+    align-items: center;
 }
 .col-1{
     flex-basis:calc((100% / 12) * 1);
